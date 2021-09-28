@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+:root{
+    --primary-color: #6A513B;
+    --dark-green: #455E28;
+}
+body {
+    background-image: url("images/groot.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0 1rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+    height: 1.5cm;
+}
+
+#button-translate{
+    color: aliceblue;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    border-radius: 0.5cm;
+    background-color: #455E28;   
+}
+
+.footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+}
